@@ -360,15 +360,15 @@
   'use strict';
 
   var priorFocus;
-  var modal = document.querySelector('.modal__body-osh');
-  var modalOverlay = document.querySelector('.modal__overlay-osh');
-  var modalToggle = document.querySelector('.modal-toggle-osh');
+  var modal = document.querySelector('.modal__body-oshd');
+  var modalOverlay = document.querySelector('.modal__overlay-oshd');
+  var modalToggle = document.querySelector('.modal-toggle-oshd');
   modalToggle.addEventListener('click', openModal);
 
   function openModal() {
     // Track the element (likely a button) that had focus before we open the modal.
     priorFocus = document.activeElement;
-    var modalClose = modal.querySelector('.modal__close-osh');
+    var modalClose = modal.querySelector('.modal__close-oshd');
 
     // Set up the event listeners we need for the modal
     modal.addEventListener("keydown", keydownEvent);
