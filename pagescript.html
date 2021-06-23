@@ -502,15 +502,15 @@
   'use strict';
 
   var priorFocus;
-  var modal = document.querySelector('.modal__body-piroes');
-  var modalOverlay = document.querySelector('.modal__overlay-piroes');
-  var modalToggle = document.querySelector('.modal-toggle-piroes');
+  var modal = document.querySelector('.modal__body-piroe');
+  var modalOverlay = document.querySelector('.modal__overlay-piroe');
+  var modalToggle = document.querySelector('.modal-toggle-piroe');
   modalToggle.addEventListener('click', openModal);
 
   function openModal() {
     // Track the element (likely a button) that had focus before we open the modal.
     priorFocus = document.activeElement;
-    var modalClose = modal.querySelector('.modal__close-piroes');
+    var modalClose = modal.querySelector('.modal__close-piroe');
 
     // Set up the event listeners we need for the modal
     modal.addEventListener("keydown", keydownEvent);
